@@ -1,0 +1,13 @@
+type GeneroNota @model @auth(rules: [{allow: public}, {allow: private}]) {
+  id: ID!
+  notaID: ID! @index(name: "byNota")
+  nombe_genero: String
+  Descripcion: String
+}
+
+type Nota @model @auth(rules: [{allow: public}, {allow: private}]) {
+  id: ID!
+  note: String!
+  GeneroNotas: [GeneroNota] @hasMany(indexName: "byNota", fields: ["id"])
+}
+ 

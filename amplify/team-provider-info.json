@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-demomarcia-staging-00138-authRole",
+      "UnauthRoleArn": "arn:aws:iam::816202198484:role/amplify-demomarcia-staging-00138-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::816202198484:role/amplify-demomarcia-staging-00138-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-demomarcia-staging-00138-deployment",
+      "UnauthRoleName": "amplify-demomarcia-staging-00138-unauthRole",
+      "StackName": "amplify-demomarcia-staging-00138",
+      "StackId": "arn:aws:cloudformation:us-east-1:816202198484:stack/amplify-demomarcia-staging-00138/c2d8e170-9da9-11ec-a0d7-0a6cdc947e29",
+      "AmplifyAppId": "deq5lfvm1jdxs"
+    },
+    "categories": {
+      "auth": {
+        "demoMarcia": {}
+      }
+    }
+  }
+}
